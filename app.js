@@ -53,7 +53,7 @@ console.log("\n");
 
 const pizzasValorMenos600 = pizzas.some((e) => e.precio < 600);
 if (pizzasValorMenos600) {
-  console.log("Si. hay al menos una pizza menor a 600");
+  console.log("Si. hay al menos una pizza menor a $600");
 } else {
   console.log("No hay");
 }
@@ -61,7 +61,7 @@ if (pizzasValorMenos600) {
 console.log("\n");
 
 pizzas.forEach((e) =>
-  console.log(`La pizza ${e.nombre} tiene un valor de ${e.precio}`)
+  console.log(`La pizza ${e.nombre} tiene un valor de $${e.precio}`)
 );
 
 pizzas.forEach((e) => {
